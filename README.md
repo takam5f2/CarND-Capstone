@@ -35,7 +35,7 @@ I added PID controller in order to control steering with stability. I implemente
 #### Traffic Light Classifier
 In addition to lateral controller, I implemented traffic light detection classifier using Tensorflow object detection API. I chose Faster RCNN based on ResNet-50. I used [traffic light dataset](https://hci.iwr.uni-heidelberg.de/node/6132) for training my model.
 
-My model classifies traffic light into UNKNOWN, RED, YELLOW, GREEN. For example, my model classified the following image into RED.
+My model classifies traffic light into UNKNOWN, RED, YELLOW, GREEN. For example, my model classified the following image into RED. Traffic light with red lamp is classified as red in second picture.
 ![original_tl](./imgs/original_traffic_light.png "Original Sample")
 ![classified_tl](./imgs/traffic_classification.png "Traffic Light Detection")
 
